@@ -1,2 +1,4 @@
 # node-auth
-# Various means of authenticating a node web app
+# Various means of doing authentication on a node web app
+# Sessions
+# Cookies
