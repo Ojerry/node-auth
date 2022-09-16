@@ -40,7 +40,7 @@ const userSchema = new mongoose.Schema({
 userSchema.plugin(passportLocalMongoose);
 
 
-// const secret = "Thisisourlittlesecret.";
+// const secret = "secretstring";
 // userSchema.plugin(encrypt, {secret: secret, encryptedFields: ["password"]})
 
 const User = new mongoose.model("User", userSchema)
